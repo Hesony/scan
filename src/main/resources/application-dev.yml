@@ -1,0 +1,27 @@
+#数据库连接
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/scannew?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: hexiaonan
+
+#项目名
+server:
+  servlet:
+    context-path: /scan
+
+#项目url
+project:
+  wechatAuthorizeUrl: http://xiaonan.mynatapp.cc/scan
+
+#微信配置
+wechat:
+  mpAppId: wxcaf6f6452ceafe6d
+  mpAppSecret: 75f117165c87bb02bf33095ef719bc7d
+
+#有赞配置
+youzan:
+  clientId: 120f1861125adced9d
+  clientSecret: a5eaa3b9812f46a00eedfa4038ac7884
+
